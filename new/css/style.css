@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+
+}
+
+nav{
+    height: 80px;
+    background: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+    color: white;
+}
+
+.header-logo{
+    font-weight: bold;
+    padding: 0 2rem;
+    font-size: 2rem;
+    font-style: italic;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0 1.5rem;
+}
+nav a:hover{
+    color:green;
+}
+.hero{
+    background: #1f2937;
+    height: 500px;
+     
+}
+.hero-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 95vh;
+    padding: 0.5rem 2rem 4rem;
+    color:antiquewhite;
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+.column-left h1{
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-size: 50px;
+}
+.column-left p{
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+button{
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    color: beige;
+    background: #000;
+    border:none;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 2rem;
+}
+.image{
+    width: 400px;
+    height: 250px;
+    padding-left: 0 3rem;
+    margin-left: 5rem;
+    border-radius: 10px;
+}
+.second-layout{
+    background:white;
+    height: 300px;
+    margin-top: -300px;
+}
+.boxes{
+    display: grid;
+    color:#1f2937;
+    align-items:normal;
+    margin-inline: auto;
+    width: min(65ch, 100% - 3rem);
+    
+}
+.info h1{
+    padding: 0 8rem;
+    font-size: 30px;
+    margin: 20px;
+
+}
+.uniswap,
+.binance,
+.bybit,
+.bitget{
+    justify-content:space-evenly;
+    width:150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: black;
+    position: static;
+}
+.third{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 200px;
+    padding: 0 2rem 0rem 6rem;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
