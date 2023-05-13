@@ -115,3 +115,29 @@ button{
     font-style: italic;
 }
 
+.quote p{
+    font-weight: lighter;
+}
+.fourth{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 180px;
+    background: #000;
+    font-size: larger;
+    
+    color:white;
+}
+span{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+footer{
+    background: #1f2937;
+    height: 50px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
